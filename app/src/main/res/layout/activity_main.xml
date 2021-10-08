@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/privacy_and_policies"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="15dp"
+                android:text="Privacy and Policies"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 1"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_1"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 1"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 2"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_2"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 2"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 3"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_3"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 3"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 4"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_4"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 4"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 5"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_5"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 5"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_drag_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:text="Drag 6"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="21sp" />
+                <Button
+                    android:id="@+id/btn_touch_6"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_bg_green"
+                    android:padding="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Touch 6"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
