@@ -1,10 +1,56 @@
-# Fitts-Law
-Fitts’ law states that the amount of time required for a person to move a pointer (e.g., mouse cursor) to a target area is a function of the distance to the target divided by the size of the target. Thus, the longer the distance and the smaller the target’s size, the longer it takes.
+# Fitts' Law
 
-Fitts’ law is widely applied in user experience (UX) and user interface (UI) design. For example, this law influenced the convention of making interactive buttons large (especially on finger-operated mobile devices)—smaller buttons are more difficult (and time-consuming) to click. Likewise, the distance between a user’s task/attention area and the task-related button should be kept as short as possible.
+This repository contains an implementation and analysis of **Fitts' Law**, a predictive model of human movement primarily used in ergonomics and human-computer interaction (HCI). Fitts' Law models the relationship between the size of a target, the distance to that target, and the time it takes to reach the target.
 
-The law is applicable to rapid, pointing movements, not continuous motion (e.g., drawing). Such movements typically consist of one large motion component (ballistic movement) followed by fine adjustments to acquire (move over) the target. The law is particularly important in visual interface design—or any interface involving pointing (by finger or mouse, etc.): we use it to assess the appropriate sizes of interactive elements according to the context of use and highlight potential design usability problems. By following Fitts’ law, standard interface elements such as the right-click pop-up menu or short drop-down menus have had resounding success, minimizing the user’s travel distance with a mouse in selecting an option—reducing time and increasing productivity. Conversely, long drop-downs, title menus, etc., impede users’ actions, raising movement-time demands.
+## Overview
 
+Fitts' Law states that the time required to move to a target is a function of the ratio between the distance to the target and the width of the target. This law can be expressed by the following equation:
 
+```
+T = a + b * log2(2D / W)
+```
 
-![alt text](https://github.com/prashant-kumar1330/Fitts-Law/blob/master/fitts_law.jpg?raw=true)
+Where:
+- **T** is the average time to complete the movement.
+- **D** is the distance from the starting point to the center of the target.
+- **W** is the width of the target along the axis of motion.
+- **a** and **b** are empirically determined constants.
+
+This implementation allows you to experiment with various target sizes and distances to better understand how Fitts' Law works.
+
+## Features
+- Interactive visualization to demonstrate Fitts' Law in practice.
+- Customizable target distance and width.
+- Automatic computation of movement time based on user input.
+- Analysis of user performance with visual feedback.
+
+## Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/ilokeshmeena/Fitts-Law.git
+    cd Fitts-Law
+    ```
+2. **Run the application**:
+
+    ```bash
+    Android Studio
+    ```
+
+## Usage
+
+1. Launch the application, and you'll be presented with a series of targets.
+2. Try clicking on the targets as quickly as possible.
+3. The program will measure the time it takes to hit each target.
+4. It will then provide feedback and analysis of the movement time based on the Fitts' Law model.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, create a new branch, and submit a pull request. Ensure that your code follows the best practices and includes tests where appropriate.
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a pull request.
